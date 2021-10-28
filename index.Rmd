@@ -4,7 +4,6 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 # This is Jeff's awesome website
@@ -20,13 +19,17 @@ And here is some additiona text
 rnorm(10)
 ```
 
-## Links
+# Links
 
 Lets link to useful tools for data science
 
 *[Google](https://www.google.com/)
 
 
-## Local image
+# Local image
 
 ![](images/1.PNG)
+
+# link to page within site.
+
+[About me](about-me.html)
